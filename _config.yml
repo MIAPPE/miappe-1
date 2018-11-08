@@ -2,8 +2,8 @@
 name: MIAPPE
 group: Minimum Information about A Plant Phenotyping Experiment
 email: noreply@ebi.ac.uk
-domain: //pkersey.github.io
-baseurl: /miappe
+domain: //miappe.github.io
+baseurl: /miappe-website
 permalink: pretty
 
 # Build settings

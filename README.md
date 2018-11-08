@@ -2,7 +2,7 @@
 An implementation of the [EBI-Boilerplate-Jekyll] (https://github.com/ebiwd/EBI-Boilerplate-Jekyll) 
 
 ## How to add and edit content
-To modify content, just edit the .html files at the root — note that they’re in the special jekyll format: https://github.com/pkersey/miappe/tree/gh-pages
+To modify content, just edit the .html files at the root — note that they’re in the special jekyll format: https://github.com/MIAPPE/miappe-website/tree/gh-pages
 
 The ones to note are:
 - index.html
