@@ -6,22 +6,28 @@ order: 1
 ---
 <div class="blurb">
 	<h2>MIAPPE</h2>
-  <h4>Minimum Information About a Plant Phenotyping Experiment</h4>
-	<p>MIAPPE is an open, community driven project to harmonize data from plant phenotyping experiments. MIAPPE comprises both a conceptual checklist of metadata required to adequately describe a plant phenotyping experiment, and software to validate, store and disseminate MIAPPE-compliant data.  We welcome contributions from anyone interested in plant phenotyping data.
-	<p>Development of MIAPPE is an open process, so if you would like to do more than just comment, and to participate in the ongoing development, please let us know via <a href="mailto:miappe-feedback@ebi.ac.uk">miappe-feedback@ebi.ac.uk</a>, or sign up to the <a href="http://listserver.ebi.ac.uk/mailman/listinfo/miappe">MIAPPE mailing list</a>.</p>
+        <h4>Minimum Information About Plant Phenotyping Experiments</h4>
+	<p>MIAPPE is an open, community driven project to harmonize data from plant phenotyping experiments. 
+		MIAPPE provides a specification including a checklist and a data model of metadata required to adequately describe plant phenotyping experiments. 
+		Those specifications are implemented in several tools, databases and file templates and exchange formats that allow to   
+		validate, store and disseminate MIAPPE-compliant data.  
+		We welcome contributions from anyone interested in plant phenotyping data, inluding linked data.</p>
+	<p>Development of MIAPPE is an open process, 
+		so if you would like to contribute by commenting, reviewing or participating to the ongoing development, 
+		please let us know via <a href="mailto:miappe-feedback@ebi.ac.uk">miappe-feedback@ebi.ac.uk</a>, 
+		or sign up to the <a href="http://listserver.ebi.ac.uk/mailman/listinfo/miappe">MIAPPE mailing list</a>.</p>
 
-	<h3>MIAPPE v1.1</h3>
-	<p><a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1">MIAPPE version 1.1</a> was officially released on 10th January 2019, following consideration of responses to two requests for comments.  Major developments over v1.0 include:
-<ul>
-<li>The extension of MIAPPE’s scope to accommodate woody plants as an additional use-case.</li>
-<li>The specification of a data model for MIAPPE, to facilitate its implementation in various formats and enable its automatic validation.</li>
-<li>Compatibility of the MIAPPE logical standard with common frameworks for representing these data types, namely <a href="https://isa-tools.org:">ISA-Tools</a> and the <a href="https://brapi.docs.apiary.io/#">Breeding API (BrAPI)</a>.</li>
-<li>The enrichment of MIAPPE, with the provision of clear definitions and examples for all fields.</li>
-</ul>
-A <a href="https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.16544">new paper</a> describing the application of MIAPPE v1.1 to a variety of use cases has just been published in the New Phytologist.
-Meanwhile, improvements can be suggested via miappe-feedback@ebi.ac.uk.  Work is now commencing on the next version of MIAPPE, v2.0.  Development is at an early stage and all contributions are welcome.
-</p> 
-	
+	<h4>MIAPPE primers</h4>
+	See the <a href="https://www.miappe.org/support/">support page</a> for full informations
+	<ul>
+	<li>The latest specifications, <a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist-Data-Model-v1.1/README.md">data model</a> overview </li>
+	<li>The latest specifications <a href="">field list</a> with descriptions and examples in 
+		<a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_Checklist-Data-Model-v1.1.tsv">tsv</a>,  
+		<a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_Checklist-Data-Model-v1.1.pdf">PDF</a> and
+		<a href="https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_Checklist-Data-Model-v1.1.tsv">Excel</a> format.</li>
+	<li>Training and exchange <a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_templates">templates</a></li>
+	<li><a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1/MIAPPE_mapping">Mapping</a> between MIAPPE and other standards (<a href="https://isa-tools.org:">ISA-Tools</a> , <a href="https://brapi.docs.apiary.io/#">Breeding API (BrAPI)</a>)</li>
+	</ul>
 	
 	<h3>Background</h3>
 
@@ -31,9 +37,22 @@ Meanwhile, improvements can be suggested via miappe-feedback@ebi.ac.uk.  Work is
 <p>MIAPPE is a logical standard - but there are specific implementations of tools designed to support its use and application, for example, in the <a hef="http://isa-tools.org">ISA-tools</a> framework. We are working with the developers of the <a href="http://www.brapi.org">Plant Breeding API</a> (BRAPI) to ensure the compliance of BRAPI with the MIAPPE standard, and to coordinate future developments.</p>
  <p>MIAPPE was originally been developed in the context of the transPLANT, European Plant Phenotyping Network and ELIXIR-EXCELERATE projects, but we are keen to work with anyone interested in contributing to, reviewing or using the standard, or developing new tools.<p>
 
-
-	
-
+<h3>Releases</h3>
+<h4>MIAPPE v1.1, January 2019</h4>
+	<p><a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-Data-Model-v1.1">MIAPPE version 1.1</a>,released on 10th January 2019, 
+		relied on two requests for comments.  Major developments over v1.0 include:</p> 
+	<ul>
+	<li>The extension of MIAPPE’s scope to accommodate woody plants as an additional use-case.</li>
+	<li>The specification of a data model for MIAPPE, to facilitate its implementation in various formats and enable its automatic validation.</li>
+	<li>Compatibility of the MIAPPE logical standard with common frameworks for representing these data types, namely <a href="https://isa-tools.org:">ISA-Tools</a> and the <a href="https://brapi.docs.apiary.io/#">Breeding API (BrAPI)</a>.</li>
+	<li>The enrichment of MIAPPE, with the provision of clear definitions and examples for all fields.</li>
+	</ul>
+	<p>A <a href="https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.16544">new paper</a> describing the application of MIAPPE v1.1 to a variety of use cases has just been published in the New Phytologist.
+		Meanwhile, improvements can be suggested via miappe-feedback@ebi.ac.uk.  Work is now commencing on the next version of MIAPPE, v2.0.  Development is at an early stage and all contributions are welcome.
+	</p> 	
+<h4>MIAPPE v1, July 2016</h4>
+	<p>The <a href="https://github.com/MIAPPE/MIAPPE/tree/master/MIAPPE_Checklist-v1.0">initial version of MIAPPE</a> has been designed as a checklist, 
+		following the approach of international deposition databases. It is now extended by MIAPPE v1.1.</p>
 
   {% comment %}
   DISABLED
